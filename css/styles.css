@@ -483,7 +483,7 @@ a {
     display: grid;
 }
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 600px){
 
     .grid--1x2 {
         grid-template-columns: 1fr 1fr;
@@ -774,3 +774,29 @@ a {
     max-width: 500px;
     margin: 0 auto;
 }
+
+/* features */
+
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+.feature__heading {
+    margin: 1rem 0;
+}
+.feature__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+}
+
+/*showcase block*/
+

@@ -6,6 +6,11 @@
 html {
     font-size: 62.5%;
 }
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
 :root {
     --color-primary: #2584ff;
     --secondary-color: #00d9ff;
